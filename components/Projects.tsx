@@ -36,7 +36,7 @@ const Projects: React.FC<{}> = () => {
         PROJECTS
       </motion.h2>
       <motion.p
-        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-sm md:text-1xl"
+        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-blue-500 to-orange-400 text-sm md:text-1xl"
         variants={fadeInUp}
       >
         EXPLORE NOW
