@@ -47,13 +47,14 @@ const About: React.FC<{}> = () => {
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          I am an aspiring software engineer with a passion for learning and solving complex problems.
-          My goal is to become an SDE/Software Engineer, with a strong focus on AI/ML. I enjoy building
-          efficient and scalable solutions, always exploring new technologies to expand my skill set.
+          I am an aspiring software engineer with a passion for learning and solving challenging problems. 
+          My ultimate goal is to pursue a career as a Software Engineer, specializing in AI and Machine Learning. 
+          I enjoy building scalable, high-performance solutions and am always eager to explore 
+          emerging technologies to grow my expertise.
           <br />
           <br />
-          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, and R, I am eager to apply
-          my knowledge to real-world projects that create meaningful impact.
+          Proficient in Python, TypeScript, C++, C#, Java, and R, I am excited to leverage my skills in real-world 
+          projects that drive innovation and create meaningful impact.
         </motion.p>
       </motion.div>
     </motion.section>
