@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import StarsCanvas from "@/components/main/StarsBackground";
+import FloatingFirefliesCanvas from "@/components/main/Background";
 import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,9 +17,9 @@ export default function RootLayout({
         <link rel="icon" href="/Me.png" type="image/x-icon" />
       </head>
       <body
-        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-gradient-to-b from-[#000] to-[#4a0e36]  overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
+        <FloatingFirefliesCanvas />
         <Navbar />
         {children}
       </body>

@@ -7,7 +7,7 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="h-full w-full bg-[url('/LooperGroup2.png')] bg-no-repeat bg-cover md:bg-contain">
+    <main className="h-full w-full bg-no-repeat bg-cover md:bg-contain">
       <div className="flex flex-col gap-10 md:gap-20 px-4 md:px-10">
         <Banner />
         <About />
